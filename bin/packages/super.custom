@@ -1,0 +1,30 @@
+package super.super
+
+*
+    Super Utility Module
+
+    Kai-Builder 2021
+
+*
+
+classdef super { function super_init(); }
+
+function write(args)
+function read(args)
+function super_init(args);
+
+func write(args) {
+    echo args > file
+}
+
+func read(args) { return 0 }
+
+
+classdef __INIT___ {}
+
+classdef styles {}
+
+classdef script {}
+
+var .txt = false
+

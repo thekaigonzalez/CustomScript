@@ -1,0 +1,14 @@
+class=super
+class=super
+proto=super_init();
+proto=write(args)
+proto=read(args)
+proto=super_init(args);
+function=write(args)
+class=super
+proto=super_init();
+proto=write(args)
+proto=read(args)
+proto=super_init(args);
+function=write(args)
+function=read(args)
