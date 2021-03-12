@@ -20,11 +20,12 @@ func write(args) {
 func read(args) { return 0 }
 
 
-classdef __INIT___ {}
+classdef __INIT___ {pass}
 
-classdef styles {}
+classdef styles { pass }
 
-classdef script {}
+classdef script {pass}
 
 var .txt = false
 
+var textfile = false

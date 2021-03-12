@@ -1,0 +1,85 @@
+* NAMESPACE DEV V8 *
+
+# Rewrite (dev)
+
+namespace rewrite:dev8
+
+using Rewrite\Developer
+using Rewrite\Classdef
+using Rewrite\Classes
+using Rewrite\Override
+using Rewrite\Plant
+using Rewrite\Code
+using Rewrite\Code\Super
+using Namespaces\Rewrite
+using Directories\Src
+using Rewrite\Code\Super\INIT
+using Rewrite\Prototypes
+using Plants\IDS
+using Plant\ID
+using Namespaces\Namespace\Normal
+using Rewrite\Buffer
+using Rewrite\Buffer\Io
+using Rewrite\Classdef\Buffer\Io
+
+function require()
+
+function module()
+
+
+module super = require('super.custom')
+
+func break(pass) {}
+
+func do(pass) {}
+
+func return(pass) {}
+
+func require() {}
+
+
+*
+Start Do Classdef.
+Allow Do To be passed within context of a IF Function
+*
+classdef if {
+    pass,
+    requiredef,
+    IN,
+    OUT
+}
+classdef do { pass }
+
+classdef doif { pass }
+
+array test['hello', 'goodbye']
+
+array non[] # Raises ObjectOrientationWarning: Can not pass array without re-definition. Can cause errors
+
+* If Invalid Pointer To Different Literal. Will happen automatically In V8.9 *
+if (a == b) {
+    raise TypeError e('Failed to Parse Invalid Type.');
+}
+open file('closed/close.txt', w) {
+    This file is a cache That shows you have executed Require.csr
+}
+# Create Directories
+mkdir dir('logs')
+mkdir dir('main')
+mkdir dir('super')
+mkdir dir('super/scripts')
+mkdir dir("scripts")
+mkdir dir('scripts/main')
+mkdir dir('static')
+mkdir dir('static/main')
+mkdir dir('static/main/db')
+mkdir dir('main/scripts')
+mkdir dir('main/logs')
+mkdir dir('main/db')
+mkdir dir('main/db/script')
+mkdir dir('scripts/main/mainscripts')
+mkdir dir('static/main/db')
+mkdir dir('super/scripts/namespace:dev')
+
+
+
